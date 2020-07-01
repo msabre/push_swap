@@ -6,15 +6,14 @@
 
 ## Запуск программы (usage)
 ### Push_swap
-<br>
 - После этого отобразятся все операции, которые были применены, для сортировки  из ARGS <br>
-```>ARG="4 67 3 87 23"; ./push_swap $ARG```<br>
+```>ARG="4 67 3 87 23"; ./push_swap $ARG```
 - Чтобы увидить количество операций<br>
 ```>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l```<br>
 <br>
 ### Checker
 - Перенаправление вывода из push_swap<br>
-```ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG```<br>
+```ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG```
 - Подать числа вручную<br>
 ```
 ./checker 3 2 1 0
