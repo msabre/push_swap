@@ -5,7 +5,7 @@
 ```git clone https://github.com/msabre/push_swap.git && cd push_swap && make```
 
 ## Запуск программы (usage)
-####Push_swap 
+#### Push_swap 
 После этого отобразятся все операции, которые были применены, для сортировки  из ARGS
 ```>ARG="4 67 3 87 23"; ./push_swap $ARG```
 Чтобы увидить количество операций
