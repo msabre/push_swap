@@ -1,33 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   check_args.c                                       :+:      :+:    :+:   */
+/*   free_lst.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/29 20:56:45 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/29 20:56:53 by msabre           ###   ########.fr       */
+/*   Created: 2019/11/26 15:38:38 by msabre            #+#    #+#             */
+/*   Updated: 2020/07/01 15:34:16 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/push_swap.h"
+#include "../includes/push_swap.h"
 
-int		check_args(char **args, int argc)
+void		free_stacklst(t_stac *stac)
 {
-	int			j;
-	int			i;
+	t_stac	*ptr;
 
-	i = 1;
-	while (i < argc)
+	if (!stac)
+		return ;
+	while (stac != NULL)
 	{
-		j = 0;
-		while (args[i][j] != '\0')
-		{
-			if (args[i][j] > 32 && args[i][j] < 127)
-				return (1);
-			j++;
-		}
-		i++;
+		ptr = stac->next;
+		free(stac);
+		stac = ptr;
 	}
-	return (0);
 }

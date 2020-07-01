@@ -6,11 +6,11 @@
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/19 15:10:43 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/30 16:24:55 by msabre           ###   ########.fr       */
+/*   Updated: 2020/07/01 15:02:09 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/push_swap.h"
+#include "../includes/push_swap.h"
 
 static t_stac	*creat_lst(int *stack_a, int size)
 {

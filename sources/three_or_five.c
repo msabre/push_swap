@@ -6,11 +6,11 @@
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 23:23:54 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/26 17:58:16 by msabre           ###   ########.fr       */
+/*   Updated: 2020/07/01 15:02:09 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/push_swap.h"
+#include "../includes/push_swap.h"
 
 static void			define_mid_and_min(t_stac **a, int *middle, int *min)
 {

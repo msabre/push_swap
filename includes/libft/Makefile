@@ -6,7 +6,7 @@
 #    By: msabre <msabre@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/14 18:00:46 by msabre            #+#    #+#              #
-#    Updated: 2019/11/29 17:15:28 by msabre           ###   ########.fr        #
+#    Updated: 2020/07/01 15:57:02 by msabre           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,17 +46,17 @@ $(NAME): $(PATH_O)
 
 $(DIR_O)/%.o: ./src/libft/%.c
 	@mkdir -p $(DIR_O)
-	@echo "COMPILING $< = $@"
-	$(CC) $(FLAGS) -I $(HEAD) -c $< -o $@;
+	@echo "Compiling libft files: $<"
+	@$(CC) $(FLAGS) -I $(HEAD) -c $< -o $@;
 
 $(DIR_O)/%.o: ./src/ft_printf/%.c
 	@mkdir -p $(DIR_O)
-	@echo "COMPILING $< = $@"
-	$(CC) $(FLAGS) -I $(HEAD) -c $< -o $@;
+	@echo "Compiling libft files: $<"
+	@$(CC) $(FLAGS) -I $(HEAD) -c $< -o $@;
 
 $(DIR_O)/%.o: ./src/get_next_line/%.c
 	@mkdir -p $(DIR_O)
-	@echo "COMPILING $< = $@"
+	@echo "Compiling libft files: $<"
 	@$(CC) $(FLAGS) -I $(HEAD) -c $< -o $@;
 
 clean:

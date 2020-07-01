@@ -6,11 +6,11 @@
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/30 16:05:49 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/29 20:56:56 by msabre           ###   ########.fr       */
+/*   Updated: 2020/07/01 15:02:09 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/push_swap.h"
+#include "../includes/push_swap.h"
 
 static int		bonus_define(char **args, int count, t_values *val)
 {

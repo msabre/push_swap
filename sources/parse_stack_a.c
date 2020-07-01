@@ -6,11 +6,11 @@
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/19 15:37:58 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/29 17:11:57 by msabre           ###   ########.fr       */
+/*   Updated: 2020/07/01 15:02:09 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/push_swap.h"
+#include "../includes/push_swap.h"
 
 static int				dupl_zero(int *stack_a, int size)
 {

@@ -6,11 +6,11 @@
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/19 15:34:15 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/26 18:35:59 by msabre           ###   ########.fr       */
+/*   Updated: 2020/07/01 15:02:09 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/push_swap.h"
+#include "../includes/push_swap.h"
 
 void			op_rr(t_stac **stack)
 {

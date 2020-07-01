@@ -6,11 +6,11 @@
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 19:55:05 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/27 22:33:35 by msabre           ###   ########.fr       */
+/*   Updated: 2020/07/01 15:34:00 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 void		select_op(t_stac **a, t_stac **b, char *op)
 {

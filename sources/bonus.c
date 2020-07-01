@@ -6,11 +6,11 @@
 /*   By: msabre <msabre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 23:15:56 by msabre            #+#    #+#             */
-/*   Updated: 2019/11/27 23:27:01 by msabre           ###   ########.fr       */
+/*   Updated: 2020/07/01 15:02:14 by msabre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/push_swap.h"
+#include "../includes/push_swap.h"
 
 static void		output_alig(int a_size, int b_size, int size)
 {
