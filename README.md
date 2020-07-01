@@ -5,13 +5,14 @@
 ```git clone https://github.com/msabre/push_swap.git && cd push_swap && make```
 
 ## Запуск программы (usage)
-#### Push_swap 
-После этого отобразятся все операции, которые были применены, для сортировки  из ARGS <br>
+### Push_swap
+<br>
+- После этого отобразятся все операции, которые были применены, для сортировки  из ARGS <br>
 ```>ARG="4 67 3 87 23"; ./push_swap $ARG```<br>
-Чтобы увидить количество операций<br>
+- Чтобы увидить количество операций<br>
 ```>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l```<br>
-
-#### Checker
+<br>
+### Checker
 - Перенаправление вывода из push_swap<br>
 ```ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG```<br>
 - Подать числа вручную<br>
