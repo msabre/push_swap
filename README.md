@@ -39,4 +39,5 @@ OK
 *Например:*<br>
 ```ARG="44 79 85 73 33 19 1 23 76 40 83 39 100 51 58 12 41 67 72 77 9 92 97 91 11"; ./push_swap -vz $ARG```
 <br>
+<br>
 ![11](https://user-images.githubusercontent.com/54527665/86259615-e5b43c80-bbc4-11ea-979d-823b2e4f5dde.gif)
